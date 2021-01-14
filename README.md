@@ -3,6 +3,9 @@
 ## python
 use e.g. https://www.anaconda.com/ (windows)
 
+## editor
+* my choice: https://code.visualstudio.com/
+
 ## offical django-tutorial
 
 https://docs.djangoproject.com/en/3.1/intro/tutorial01/
