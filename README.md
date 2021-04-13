@@ -25,7 +25,7 @@ you'll need to have a postgres-db set up locally
 * create a postgresql db `mmp`
 * create a custom settings-file e.g. `settings/pg_local.py`
 * add the db-credentials to connect to your db
-* run migrations, e.g. `python manage.py migrate --settings=djangobaseproject/settings.pg_local
+* run migrations, e.g. `python manage.py migrate --settings=djangobaseproject.settings.pg_local
 * create a superuser
 * start the dev server
 * try to create/edit/delete objects
