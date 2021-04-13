@@ -17,12 +17,14 @@ https://docs.djangoproject.com/en/3.1/intro/tutorial01/
   
 ## run custom project locally
 
-you'll need to have a postgres-db set up locally
+you'll need to have a postgres-db set up locally and [GDAL](https://docs.djangoproject.com/en/3.1/ref/contrib/gis/install/geolibs/) installed
+
 
 ### set up app locally
 * clone https://github.com/acdh-oeaw/mmp
 * install required packages (`pip install -r requirements.txt`)
 * create a postgresql db `mmp`
+* create postigs extension
 * create a custom settings-file e.g. `settings/pg_local.py`
 * add the db-credentials to connect to your db
 * run migrations, e.g. `python manage.py migrate --settings=djangobaseproject.settings.pg_local
